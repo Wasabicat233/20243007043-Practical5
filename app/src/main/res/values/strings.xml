@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Chinese Municipalities</string>
+    <string name="title_main">Municipalities in China</string>
+    <string name="hint_label">I want to know about:</string>
+    <string name="hint_edit">name of a municipality</string>
+    <string name="desc_map">Map of China municipalities</string>
+    <string name="error_invalid">Invalid or empty input! Please enter Beijing/Shanghai/Chongqing/Tianjin</string>
 </resources>
