@@ -77,16 +77,16 @@ public class Municipality extends AppCompatActivity {
             String url = "";
             switch (validCity) {
                 case "Beijing":
-                    url = "https://www.beijing.gov.cn";
+                    url = "https://www.english.beijing.gov.cn";
                     break;
                 case "Shanghai":
-                    url = "https://www.shanghai.gov.cn";
+                    url = "https://www.english.shanghai.gov.cn";
                     break;
                 case "Tianjin":
-                    url = "https://www.tj.gov.cn";
+                    url = "https://www.english.tj.gov.cn";
                     break;
                 case "Chongqing":
-                    url = "https://www.cq.gov.cn";
+                    url = "https://www.english.cq.gov.cn";
                     break;
             }
             intent.setData(Uri.parse(url));
