@@ -89,8 +89,12 @@ public class Municipality extends AppCompatActivity {
                     url = "https://www.english.cq.gov.cn";
                     break;
             }
-            intent.setData(Uri.parse(url));
-            startActivity(intent);
+            if (!url.isEmpty()) {
+                intent.setData(Uri.parse(url));
+                if (intent.resolveActivity(getPackageManager()) != null) {
+                    startActivity(intent);
+                }
+            }
         });
     }
 }
